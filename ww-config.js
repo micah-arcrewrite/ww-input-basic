@@ -4,7 +4,7 @@ export default {
         exclude: ['text'],
     },
     editor: {
-        label: { en: 'Form Input', fr: 'Entrée de Formulaire' },
+        label: { en: 'StackPack Input', fr: 'StackPack Entrée de Formulaire' },
         icon: 'text-input',
         customSettingsPropertiesOrder: [
             'value',
@@ -325,6 +325,7 @@ export default {
             },
             section: 'settings',
             defaultValue: '500ms',
+            bindable: true,
             responsive: true,
             hidden: content => !content.debounce,
             bindable: true
