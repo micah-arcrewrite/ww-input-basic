@@ -328,7 +328,7 @@ export default {
             bindable: true,
             responsive: true,
             hidden: content => !content.debounce,
-            bindable: true
+            bindable: false
         },
         autocomplete: {
             label: { en: 'Autocomplete', fr: 'Autocomplétion' },
