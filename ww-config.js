@@ -100,6 +100,7 @@ export default {
                     { value: 'color', label: { en: 'Color', fr: 'Couleur' } },
                 ],
             },
+            bindable: true,
             defaultValue: 'text',
         },
         displayPassword: {
