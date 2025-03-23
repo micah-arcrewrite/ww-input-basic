@@ -163,6 +163,7 @@ export default {
             },
             hidden: content => content.type !== 'decimal',
             defaultValue: '0.1',
+            bindable: true,
         },
         step: {
             label: { en: 'Step', fr: 'Step' },
@@ -240,6 +241,7 @@ export default {
             type: 'OnOff',
             hidden: content => content.type !== 'textarea',
             defaultValue: false,
+            bindable: true,
             classes: true,
         },
         min: {
@@ -308,6 +310,7 @@ export default {
             hidden: content => content.type !== 'number' && content.type !== 'decimal',
             defaultValue: false,
             classes: true,
+            bindable: true,
         },
         debounce: {
             label: { en: 'Debounce' },
